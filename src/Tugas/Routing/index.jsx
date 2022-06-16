@@ -30,9 +30,9 @@ const Routing = () => {
                     <Route path="/Contact">
                         <Contact/>
                     </Route>
-                    <Router path="/Post/id">
+                    <Route path="/Post/:id">
                         <Post/>
-                    </Router>
+                    </Route>
 
                 </Switch>
             </Router>
